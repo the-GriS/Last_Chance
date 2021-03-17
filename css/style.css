@@ -94,3 +94,12 @@ h6 {
   color: white;
   text-align: center;
 }
+
+@media (max-width: 800px) {
+  .text_intro {
+    font-size: 24px;
+  }
+  .what {
+    font-size: 50px;
+  }
+}

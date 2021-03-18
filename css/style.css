@@ -64,7 +64,7 @@ h6 {
 }
 
 .intro_inner {
-  height: 59vh;
+  height: 57vh;
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
@@ -93,7 +93,7 @@ h6 {
   text-align: center;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   .text_intro {
     font-size: 24px;
   }

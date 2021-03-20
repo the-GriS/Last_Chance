@@ -79,3 +79,15 @@ if (iconMenu) {
     iconBody_before.classList.toggle("_active");
   });
 }
+
+//лого
+const DSSG = document.querySelector(".DSSG");
+const logoIcon = document.querySelector(".logo_png");
+if (logoIcon) {
+  logoIcon.addEventListener("mouseover", function (e) {
+    DSSG.classList.toggle("_hover");
+  });
+  logoIcon.addEventListener("mouseout", function (e) {
+    DSSG.classList.remove("_hover");
+  });
+}

@@ -85,6 +85,18 @@ h6 {
   z-index: 5;
 }
 
+body._pc .DSSG:hover {
+  color: rgb(163, 93, 43);
+}
+
+body._pc .DSSG._hover {
+  color: rgb(163, 93, 43);
+}
+
+body._pc .menu_link:hover {
+  color: rgb(163, 93, 43);
+}
+
 .header_menu {
 }
 
@@ -158,7 +170,7 @@ h6 {
   background-color: rgb(224, 64, 85);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .text_intro {
     font-size: 20px;
   }
@@ -251,11 +263,9 @@ h6 {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .menu_list {
     display: flex;
     align-items: center;
-  }
-  .menu_list li {
   }
 }

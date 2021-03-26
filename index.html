@@ -131,18 +131,29 @@
               soundtracks and promo video.
             </p>
             <div class="sound">
-              <audio
-                src="./audio/Гречка - Люби меня люби.mp3"
-                controls
-                preload="metadata"
-                class="soundtrack"
-              ></audio>
+              <audio controls preload="metadata" class="soundtrack">
+                <source
+                  src="./audio/Гречка - Люби меня люби.mp3"
+                  type="audio/mpeg"
+                />
+                <source
+                  src="./audio/Гречка - Люби меня люби.ogg"
+                  type="audio/ogg"
+                />
+              </audio>
             </div>
-            <p class="text"></p>
+            <p class="text">
+              There were not enough ideas for the video, but the place will not
+              be wasted just like that, so the clip to the studio
+            </p>
             <video controls preload="metadata" class="video">
-              <source
+              <!-- <source
                 src="./video/grandson - Dirty [OFFICIAL VIDEO].mp4"
                 type="video/mp4"
+              /> -->
+              <source
+                src="./video/grandson - Dirty [OFFICIAL VIDEO].ogv"
+                type="video/ogg"
               />
             </video>
           </div>

@@ -240,6 +240,18 @@ body._pc .swiper-button-prev:hover::after {
   color: rgb(197, 197, 197);
 }
 
+.photo_text {
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5vh;
+}
+
+.image-slider .swiper-pagination-bullet {
+  background-color: #fff;
+}
+
 .da_3 {
   background-color: #000000;
 }
@@ -367,6 +379,10 @@ body._pc .swiper-button-prev:hover::after {
 
   .soundtrack {
     width: 80%;
+  }
+
+  .photo_text {
+    font-size: 18px;
   }
 }
 

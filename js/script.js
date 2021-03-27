@@ -99,4 +99,14 @@ new Swiper(".image-slider", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
+  keyboard: {
+    enabled: true,
+    onlyInViewport: true,
+  },
+  //loop: true,
 });

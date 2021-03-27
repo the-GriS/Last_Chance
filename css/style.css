@@ -220,7 +220,24 @@ body._pc .menu_link:hover {
 
 .video {
   width: 100%;
-  margin-bottom: 5vh;
+}
+
+.image-slider_image {
+  text-align: center;
+}
+
+.image-slider_image img {
+  max-width: 100%;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: #fff;
+}
+
+body._pc .swiper-button-next:hover::after,
+body._pc .swiper-button-prev:hover::after {
+  color: rgb(197, 197, 197);
 }
 
 .da_3 {

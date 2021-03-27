@@ -91,3 +91,12 @@ if (logoIcon) {
     DSSG.classList.remove("_hover");
   });
 }
+
+//слайдер
+new Swiper(".image-slider", {
+  //стрелки
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});

@@ -264,7 +264,15 @@ body._pc .swiper-button-prev:hover::after {
   text-align: center;
 }
 
-.home_imagine {
+.footer {
+  background: url(../assets/intro/intro_back.jpg) center;
+  background-size: cover;
+}
+
+.footer_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 10px;
 }
 
 @media (max-width: 1024px) {

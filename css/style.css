@@ -143,12 +143,6 @@ body._pc .menu_link:hover {
   font-family: "Playfair Display", serif;
 }
 
-.da {
-  height: 1000px;
-
-  margin: 0 auto;
-}
-
 .education {
   margin: 0 auto;
   background-color: #000000;
@@ -220,6 +214,7 @@ body._pc .menu_link:hover {
 
 .video {
   width: 100%;
+  margin-bottom: 5vh;
 }
 
 .image-slider_image {
@@ -252,8 +247,24 @@ body._pc .swiper-button-prev:hover::after {
   background-color: #fff;
 }
 
-.da_3 {
+.home-meetings {
+  margin: 0 auto;
   background-color: #000000;
+  color: white;
+  padding: 5vh 0vh;
+}
+
+.home-meetings_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 10px;
+}
+
+.img_plus {
+  text-align: center;
+}
+
+.home_imagine {
 }
 
 @media (max-width: 1024px) {
@@ -384,6 +395,16 @@ body._pc .swiper-button-prev:hover::after {
   .photo_text {
     font-size: 18px;
   }
+
+  .home_img {
+    margin-bottom: 5vh;
+    width: 100%;
+  }
+
+  .home_img_plus {
+    margin-bottom: 5vh;
+    width: 30%;
+  }
 }
 
 @media (min-width: 769px) {
@@ -412,5 +433,18 @@ body._pc .swiper-button-prev:hover::after {
 
   .lecturer {
     width: 45%;
+  }
+  .home_imagine {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+
+  .home_img {
+    width: 40%;
+  }
+
+  .home_img_plus {
+    width: 50%;
   }
 }

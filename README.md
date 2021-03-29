@@ -1,1 +1,1 @@
-https://the-GriS.github.io/Last_Chance/
+https://the-GriS.github.io/Last-Chance/
